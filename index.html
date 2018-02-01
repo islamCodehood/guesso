@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="src/css/fontawesome.css">
+    <title>Guesso</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="tutorial">
+            <p>Welcome to <span class="titleTutorial">Guesso</span> Word Guessing Game.</p>
+            <p><span class="instrTitle">To turn on or off:</span> Click <span class="instr">On/Off</span> button, or press <span class="instr">Enter</span> key. </p>
+            <p><span class="instrTitle">To go to the next word:</span> Click on <span class="instr">next</span> button, or press <span class="instr">Shift</span> key.</p>
+            <p>You can either use <span class="instr">mouse</span> or <span class="instr">keyboard</span> to write letters.</p>
+            <span class="startPlaying">Start Playing!</span>
+        </div>
+    
+        <div class="rightSide">
+            <div class="hint"></div>
+            <div class="main">
+            </div>
+            <div class="keyboard">
+                    <div class="q btn btnBorder">Q</div>
+                    <div class="w btn btnBorder">W</div>
+                    <div class="e btn btnBorder">E</div>
+                    <div class="r btn btnBorder">R</div>
+                    <div class="t btn btnBorder">T</div>
+                    <div class="y btn btnBorder">Y</div>
+                    <div class="u btn btnBorder">U</div>
+                    <div class="i btn btnBorder">I</div>
+                    <div class="o btn btnBorder">O</div>
+                    <div class="p btn btnBorder">P</div>
+                    <div class="a btn btnBorder">A</div>
+                    <div class="s btn btnBorder">S</div>
+                    <div class="d btn btnBorder">D</div>
+                    <div class="f btn btnBorder">F</div>
+                    <div class="g btn btnBorder">G</div>
+                    <div class="h btn btnBorder">H</div>
+                    <div class="j btn btnBorder">J</div>
+                    <div class="k btn btnBorder">K</div>
+                    <div class="l btn btnBorder">L</div>
+                    <span class="start btn btnBorder"><i class="fa fa-power-off symbolSize"></i></span>
+                    <span class="next btn btnBorder">next</span>
+                    <div class="z btn btnBorder">Z</div>
+                    <div class="x btn btnBorder">X</div>
+                    <div class="c btn btnBorder">C</div>
+                    <div class="v btn btnBorder">V</div>
+                    <div class="b btn btnBorder">B</div>
+                    <div class="n btn btnBorder">N</div>
+                    <div class="m btn btnBorder">M</div>        
+                </div>
+            <div class="score"></div>
+        </div>
+        <div class="leftSide">
+            <div class="image">
+                <img src="src/img/closedMouth.png" class="hangman" alt="">
+            </div>           
+            <h1 class="title">Guesso</h1>
+        </div> 
+        <footer>
+                <p class="developer">Developed by: <a href="mailto:islam.sayed8@gmail.com">Islam Sayed</a>.</p>
+                <p class="designer">Designed by: <a href="mailto:noha.mohamed.ali.68@gmail.com">Noha Ali</a>.</p>
+        </footer>      
+    </div>  
+    
+    
+        
+    <audio src="src/sound/click.mp3" class="keySound"></audio>
+    <audio src="src/sound/solved.mp3" class="solvedSound"></audio>
+    <audio src="src/sound/failed.mp3" class="failedSound"></audio>
+    <script src="src/js/main.js"></script>  
+</body>
+</html>
